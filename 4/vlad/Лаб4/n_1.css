@@ -1,0 +1,11 @@
+<style>
+P { 
+    text-indent: 30px; 
+    color: blue;
+   }
+P:first-letter {
+    
+    font-size: 300%; /* Размер шрифта первого символа */
+    color: red; /* Красный цвет текста */
+   }
+</style>

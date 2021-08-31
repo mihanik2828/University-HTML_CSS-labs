@@ -1,0 +1,19 @@
+<style>
+
+body{
+  font-size:12;
+    }
+
+P { 
+  text-indent: 18px; 
+  color: darkblue;
+  }
+	
+P:first-letter 
+	{
+	padding-left:30;
+	font-size: 300%; /* Размер шрифта первого символа */
+	color: red; /* Красный цвет текста */
+   	}
+
+</style>

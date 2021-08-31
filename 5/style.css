@@ -1,0 +1,35 @@
+<style>
+P 
+{
+text-indent: 30px; 
+color: blue;
+}
+
+BODY 
+{
+background-color:lightyellow;
+}
+
+.bl 
+{
+filter: blur(5px);
+}
+
+.contr 
+{
+filter: contrast(100);
+transition: 5s;
+}
+
+.invert 
+{
+filter: invert(1);
+transition: 5s;
+}
+
+.sep 
+{
+filter: sepia(5);
+}
+
+</style>

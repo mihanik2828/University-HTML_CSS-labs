@@ -1,0 +1,31 @@
+<HTML>
+<head>
+<title> "Графика в HTML"</title>
+
+<META NAME="author" CONTENT="Ionov M">
+<META NAME="description" CONTENT="Курс Web-технологии">
+<META NAME="keywords" CONTENT="HTML, тэг, гипертекст, браузер">
+
+</head>
+<body BACKGROUND="2.jpg" TEXT="yellow" >
+<IMG SRC="1.jpg" align=left HSPACE=20 VSPACE=20 ALT="Это фото моего дома">
+<BR >Включить в документ произвольный текст (не менее 300 символов) и с
+помощью параметров тега задать обтекание текста вставленной
+картинки слева. 
+<BR clear=all>Посмотреть результат в браузере;
+С помощью тэга отменить обтекание части текста.
+Посмотреть результат в браузере;
+
+<A HREF="2.jpg"><IMG SRC="3.jpg" BORDER=0 ></A>
+
+<map name = "firstmap" >
+			<area shape = "rect" coords = "0,0,100,100" href = "rect.jpg" alt = " квадрат" >
+			<area shape = "circle" coords = "50,150,50" href = "circ.jpg" alt = " круг." >
+			<area shape = "poly" coords = "126,3,180,32,175,75,129,90,109,52" href = "poly.jpg" alt = "многоугольник" >
+			<area shape = default coords = ""  href = "none.html" alt = "ничего" >
+</map>
+
+<IMG SRC="4.gif" USEMAP=#firstmap alt = "Доступны 3 фигуры для выбора">
+
+</body>
+</HTML>
